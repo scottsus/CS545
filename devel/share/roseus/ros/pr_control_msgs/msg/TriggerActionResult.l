@@ -1,0 +1,1 @@
+/home/csci545/ros_ws/devel/.private/pr_control_msgs/share/roseus/ros/pr_control_msgs/msg/TriggerActionResult.l

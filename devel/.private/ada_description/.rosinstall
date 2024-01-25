@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/csci545/ros_ws/devel/.private/ada_description/setup.sh

@@ -1,0 +1,80 @@
+[ 11%] [34m[1mPerforming download step (download, verify and extract) for 'pybind11_src'[0m
+-- verifying file...
+       file='/home/csci545/ros_ws/build/pybind11_catkin/pybind11_src-prefix/src/v2.2.4.zip'
+-- MD5 hash of
+    /home/csci545/ros_ws/build/pybind11_catkin/pybind11_src-prefix/src/v2.2.4.zip
+  does not match expected value
+    expected: '06f0bbf25dc9c4fe15092e9e03a8fc01'
+      actual: 'd41d8cd98f00b204e9800998ecf8427e'
+-- File already exists but hash mismatch. Removing...
+-- Downloading...
+   dst='/home/csci545/ros_ws/build/pybind11_catkin/pybind11_src-prefix/src/v2.2.4.zip'
+   timeout='none'
+-- Using src='https://github.com/pybind/pybind11/archive/v2.2.4.zip'
+-- verifying file...
+       file='/home/csci545/ros_ws/build/pybind11_catkin/pybind11_src-prefix/src/v2.2.4.zip'
+-- Downloading... done
+-- extracting...
+     src='/home/csci545/ros_ws/build/pybind11_catkin/pybind11_src-prefix/src/v2.2.4.zip'
+     dst='/home/csci545/ros_ws/build/pybind11_catkin/pybind11_src-prefix/src/pybind11_src'
+-- extracting... [tar xfz]
+-- extracting... [analysis]
+-- extracting... [rename]
+-- extracting... [clean up]
+-- extracting... done
+[ 33%] [34m[1mNo update step for 'pybind11_src'[0m
+[ 33%] [34m[1mNo patch step for 'pybind11_src'[0m
+[ 44%] [34m[1mPerforming configure step for 'pybind11_src'[0m
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found PythonInterp: /usr/bin/python (found version "3.8.10") 
+-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.8.so
+-- Performing Test HAS_CPP14_FLAG
+-- Performing Test HAS_CPP14_FLAG - Success
+-- pybind11 v2.2.4
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/csci545/ros_ws/build/pybind11_catkin/pybind11_src-prefix/src/pybind11_src-build
+[ 55%] [34m[1mPerforming build step for 'pybind11_src'[0m
+[ 66%] [34m[1mPerforming install step for 'pybind11_src'[0m
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Installing: /home/csci545/ros_ws/build/pybind11_catkin/install/include/pybind11
+-- Installing: /home/csci545/ros_ws/build/pybind11_catkin/install/include/pybind11/eval.h
+-- Installing: /home/csci545/ros_ws/build/pybind11_catkin/install/include/pybind11/stl_bind.h
+-- Installing: /home/csci545/ros_ws/build/pybind11_catkin/install/include/pybind11/complex.h
+-- Installing: /home/csci545/ros_ws/build/pybind11_catkin/install/include/pybind11/common.h
+-- Installing: /home/csci545/ros_ws/build/pybind11_catkin/install/include/pybind11/cast.h
+-- Installing: /home/csci545/ros_ws/build/pybind11_catkin/install/include/pybind11/buffer_info.h
+-- Installing: /home/csci545/ros_ws/build/pybind11_catkin/install/include/pybind11/functional.h
+-- Installing: /home/csci545/ros_ws/build/pybind11_catkin/install/include/pybind11/numpy.h
+-- Installing: /home/csci545/ros_ws/build/pybind11_catkin/install/include/pybind11/detail
+-- Installing: /home/csci545/ros_ws/build/pybind11_catkin/install/include/pybind11/detail/common.h
+-- Installing: /home/csci545/ros_ws/build/pybind11_catkin/install/include/pybind11/detail/descr.h
+-- Installing: /home/csci545/ros_ws/build/pybind11_catkin/install/include/pybind11/detail/init.h
+-- Installing: /home/csci545/ros_ws/build/pybind11_catkin/install/include/pybind11/detail/class.h
+-- Installing: /home/csci545/ros_ws/build/pybind11_catkin/install/include/pybind11/detail/typeid.h
+-- Installing: /home/csci545/ros_ws/build/pybind11_catkin/install/include/pybind11/detail/internals.h
+-- Installing: /home/csci545/ros_ws/build/pybind11_catkin/install/include/pybind11/embed.h
+-- Installing: /home/csci545/ros_ws/build/pybind11_catkin/install/include/pybind11/operators.h
+-- Installing: /home/csci545/ros_ws/build/pybind11_catkin/install/include/pybind11/pytypes.h
+-- Installing: /home/csci545/ros_ws/build/pybind11_catkin/install/include/pybind11/options.h
+-- Installing: /home/csci545/ros_ws/build/pybind11_catkin/install/include/pybind11/stl.h
+-- Installing: /home/csci545/ros_ws/build/pybind11_catkin/install/include/pybind11/iostream.h
+-- Installing: /home/csci545/ros_ws/build/pybind11_catkin/install/include/pybind11/attr.h
+-- Installing: /home/csci545/ros_ws/build/pybind11_catkin/install/include/pybind11/chrono.h
+-- Installing: /home/csci545/ros_ws/build/pybind11_catkin/install/include/pybind11/eigen.h
+-- Installing: /home/csci545/ros_ws/build/pybind11_catkin/install/include/pybind11/pybind11.h
+-- Installing: /home/csci545/ros_ws/build/pybind11_catkin/install/share/cmake/pybind11/pybind11Config.cmake
+-- Installing: /home/csci545/ros_ws/build/pybind11_catkin/install/share/cmake/pybind11/pybind11ConfigVersion.cmake
+-- Installing: /home/csci545/ros_ws/build/pybind11_catkin/install/share/cmake/pybind11/FindPythonLibsNew.cmake
+-- Installing: /home/csci545/ros_ws/build/pybind11_catkin/install/share/cmake/pybind11/pybind11Tools.cmake
+-- Installing: /home/csci545/ros_ws/build/pybind11_catkin/install/share/cmake/pybind11/pybind11Targets.cmake
+[ 77%] [34m[1mCopying to devel[0m
+[ 88%] [34m[1mCompleted 'pybind11_src'[0m
+[100%] Built target pybind11_src

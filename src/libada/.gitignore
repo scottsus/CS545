@@ -1,0 +1,14 @@
+# Build Folder
+build/
+
+# Compiled Object files
+*.o
+
+# Compiled Dynamic libraries
+*.so
+
+# Executables
+*.out
+
+# Build directory
+build/

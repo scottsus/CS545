@@ -1,0 +1,3 @@
+Symlinking /home/csci545/ros_ws/devel/lib/pkgconfig/cs545_lab1.pc
+Symlinking /home/csci545/ros_ws/devel/share/cs545_lab1/cmake/cs545_lab1Config-version.cmake
+Symlinking /home/csci545/ros_ws/devel/share/cs545_lab1/cmake/cs545_lab1Config.cmake

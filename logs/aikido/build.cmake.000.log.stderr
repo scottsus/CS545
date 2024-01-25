@@ -1,0 +1,9 @@
+[33m[1mCMake Warning[0m at /home/csci545/ros_ws/src/aikido/src/perception/CMakeLists.txt:33 (message):
+  The installed version of DART 6.7.3 is missing
+  dart::dynamics::VoxelGridShape, which is because DART built without
+  octomap.  Please rebuild DART from source with octomap installed to enable
+  VoxelGridModule in AIKIDO.  If you installed DART from the PPA on Ubuntu
+  Trusty (14.04 LTS), you need to build DART from source.  This is because
+  octomap is absent on Trusty.
+
+

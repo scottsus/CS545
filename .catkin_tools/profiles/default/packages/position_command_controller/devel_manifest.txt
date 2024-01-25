@@ -1,0 +1,6 @@
+pr_ros_controllers/position_command_controller
+/home/csci545/ros_ws/devel/.private/position_command_controller/cmake.lock /home/csci545/ros_ws/devel/./cmake.lock
+/home/csci545/ros_ws/devel/.private/position_command_controller/lib/libposition_command_controller.so /home/csci545/ros_ws/devel/lib/libposition_command_controller.so
+/home/csci545/ros_ws/devel/.private/position_command_controller/lib/pkgconfig/position_command_controller.pc /home/csci545/ros_ws/devel/lib/pkgconfig/position_command_controller.pc
+/home/csci545/ros_ws/devel/.private/position_command_controller/share/position_command_controller/cmake/position_command_controllerConfig.cmake /home/csci545/ros_ws/devel/share/position_command_controller/cmake/position_command_controllerConfig.cmake
+/home/csci545/ros_ws/devel/.private/position_command_controller/share/position_command_controller/cmake/position_command_controllerConfig-version.cmake /home/csci545/ros_ws/devel/share/position_command_controller/cmake/position_command_controllerConfig-version.cmake

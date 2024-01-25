@@ -1,0 +1,14 @@
+<robot name="lime">
+  <link name="lime">
+    <collision>
+      <geometry>
+        <mesh filename="lime.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+    <visual>
+      <geometry>
+        <mesh filename="lime.dae" scale="0.001 0.001 0.001" />
+      </geometry>
+    </visual>
+  </link>
+</robot>

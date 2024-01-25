@@ -1,0 +1,61 @@
+Not searching for unused variables given on the command line.
+[36m--[0m The C compiler identification is GNU 9.4.0
+[36m--[0m The CXX compiler identification is GNU 9.4.0
+[36m--[0m Check for working C compiler: /usr/bin/cc
+[36m--[0m Check for working C compiler: /usr/bin/cc -- works
+[36m--[0m Detecting C compiler ABI info
+[36m--[0m Detecting C compiler ABI info - done
+[36m--[0m Detecting C compile features
+[36m--[0m Detecting C compile features - done
+[36m--[0m Check for working CXX compiler: /usr/bin/c++
+[36m--[0m Check for working CXX compiler: /usr/bin/c++ -- works
+[36m--[0m Detecting CXX compiler ABI info
+[36m--[0m Detecting CXX compiler ABI info - done
+[36m--[0m Detecting CXX compile features
+[36m--[0m Detecting CXX compile features - done
+[36m--[0m Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1")
+[36m--[0m Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: filesystem
+[36m--[0m Found CCD: /usr/include (found version "2.0")
+[36m--[0m Found FCL: /usr/include (found version "0.5.0")
+[36m--[0m Found ASSIMP: /usr/include (found version "5.0.0")
+[36m--[0m Found TINYXML2: /usr/include (found version "6.2.0")
+[36m--[0m Found DART: /usr/local/include (Required is at least version "6.6.2") found components: optimizer-nlopt utils utils-urdf dart
+[36m--[0m Performing Test DART_HAS_VOXELGRIDSHAPE
+[36m--[0m Performing Test DART_HAS_VOXELGRIDSHAPE - Failed
+[36m--[0m Found EIGEN3: /usr/include/eigen3 (found version "3.3.7")
+[36m--[0m Found TinyXML2: /usr/include (found version "6.2.0")
+[36m--[0m Found YAMLCPP: /usr/include
+[36m--[0m Performing Test YAMLCPP_NODE_HAS_MARK
+[36m--[0m Performing Test YAMLCPP_NODE_HAS_MARK - Success
+[36m--[0m Looking for roscpp - version 1.16.0 found
+[36m--[0m Looking for geometry_msgs - version 1.13.1 found
+[36m--[0m Looking for std_msgs - version 0.5.13 found
+[36m--[0m Looking for visualization_msgs - version 1.13.1 found
+[36m--[0m Looking for tf - version 1.13.2 found
+[36m--[0m Looking for octomap_ros - version 0.4.1 found
+[33m[1mCMake Warning[0m at /home/csci545/ros_ws/src/aikido/src/perception/CMakeLists.txt:33 (message):
+  The installed version of DART 6.7.3 is missing
+  dart::dynamics::VoxelGridShape, which is because DART built without
+  octomap.  Please rebuild DART from source with octomap installed to enable
+  VoxelGridModule in AIKIDO.  If you installed DART from the PPA on Ubuntu
+  Trusty (14.04 LTS), you need to build DART from source.  This is because
+  octomap is absent on Trusty.
+
+
+[36m--[0m Found ompl: /usr/include;/usr/include/eigen3
+[36m--[0m Looking for roscpp - version 1.16.0 found
+[36m--[0m Looking for geometry_msgs - version 1.13.1 found
+[36m--[0m Looking for interactive_markers - version 1.12.0 found
+[36m--[0m Looking for std_msgs - version 0.5.13 found
+[36m--[0m Looking for visualization_msgs - version 1.13.1 found
+[36m--[0m Looking for libmicrohttpd - version 0.9.66 found
+[36m--[0m Looking for roscpp - version 1.16.0 found
+[36m--[0m Looking for trajectory_msgs - version 1.13.1 found
+[36m--[0m Looking for actionlib - version 1.14.0 found
+[36m--[0m Looking for control_msgs - version 1.5.2 found
+[36m--[0m Looking for pr_control_msgs - version 0.0.0 found
+[36m--[0m Looking for Doxygen - NOT found, to generate API documentation, please install Doxygen
+[36m--[0m Looking for clang-format - NOT found, please install clang-format-3.8 to enable automatic code formatting.
+[36m--[0m Configuring done
+[36m--[0m Generating done
+[36m--[0m Build files have been written to: /home/csci545/ros_ws/build/aikido

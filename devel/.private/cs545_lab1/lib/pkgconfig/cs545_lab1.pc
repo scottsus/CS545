@@ -1,0 +1,8 @@
+prefix=/home/csci545/ros_ws/devel/.private/cs545_lab1
+
+Name: cs545_lab1
+Description: Description of cs545_lab1
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,11 @@
+/home/csci545/ros_ws/src/aikido/src/statespace/dart/MetaSkeletonStateSpace.cpp: In instantiation of ‘[01m[Kstd::vector<Data> aikido::statespace::dart::{anonymous}::convertVectorType(const std::vector<_Res>&) [with Input = std::shared_ptr<const aikido::statespace::dart::JointStateSpace>; Output = std::shared_ptr<const aikido::statespace::StateSpace>][m[K’:
+[01m[K/home/csci545/ros_ws/src/aikido/src/statespace/dart/MetaSkeletonStateSpace.cpp:251:44:[m[K   required from here
+[01m[K/home/csci545/ros_ws/src/aikido/src/statespace/dart/MetaSkeletonStateSpace.cpp:30:26:[m[K [01;35m[Kwarning: [m[Kmoving a local object in a return statement prevents copy elision [[01;35m[K-Wpessimizing-move[m[K]
+   30 |   return std::move(output[01;35m[K)[m[K;
+      |                          [01;35m[K^[m[K
+[01m[K/home/csci545/ros_ws/src/aikido/src/statespace/dart/MetaSkeletonStateSpace.cpp:30:26:[m[K [01;36m[Knote: [m[Kremove ‘[01m[Kstd::move[m[K’ call
+[01m[K/home/csci545/ros_ws/src/aikido/src/robot/util.cpp:[m[K In function ‘[01m[Kaikido::trajectory::TrajectoryPtr aikido::robot::util::planToEndEffectorOffset(const MetaSkeletonStateSpacePtr&, const MetaSkeletonPtr&, const BodyNodePtr&, const Vector3d&, const TestablePtr&, double, double, double, double, const aikido::robot::util::VectorFieldPlannerParameters&, const aikido::robot::util::CRRTPlannerParameters&)[m[K’:
+[01m[K/home/csci545/ros_ws/src/aikido/src/robot/util.cpp:442:21:[m[K [01;35m[Kwarning: [m[Kredundant move in return statement [[01;35m[K-Wredundant-move[m[K]
+  442 |     return [01;35m[Kstd::move(traj)[m[K;
+      |            [01;35m[K~~~~~~~~~^~~~~~[m[K
+[01m[K/home/csci545/ros_ws/src/aikido/src/robot/util.cpp:442:21:[m[K [01;36m[Knote: [m[Kremove ‘[01m[Kstd::move[m[K’ call

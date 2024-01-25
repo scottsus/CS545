@@ -1,0 +1,54 @@
+[35m[1mScanning dependencies of target googletest[0m
+[35m[1mScanning dependencies of target libada[0m
+[  3%] [34m[1mCreating directories for 'googletest'[0m
+[  7%] [34m[1mPerforming download step (git clone) for 'googletest'[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/libada.dir/src/ada_description/AdaFingerKinematicSimulationPositionCommandExecutor.cpp.o[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/libada.dir/src/ada_description/AdaHandKinematicSimulationPositionCommandExecutor.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/libada.dir/src/ada_description/AdaHand.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/libada.dir/src/ada_description/Ada.cpp.o[0m
+-- googletest download command succeeded.  See also /home/csci545/ros_ws/build/libada/googletest-prefix/src/googletest-stamp/googletest-download-*.log
+[ 25%] [34m[1mNo patch step for 'googletest'[0m
+[ 29%] [34m[1mNo update step for 'googletest'[0m
+[ 33%] [34m[1mPerforming configure step for 'googletest'[0m
+-- googletest configure command succeeded.  See also /home/csci545/ros_ws/build/libada/googletest-prefix/src/googletest-stamp/googletest-configure-*.log
+[ 37%] [34m[1mPerforming build step for 'googletest'[0m
+[01m[K/home/csci545/ros_ws/src/libada/src/ada_description/Ada.cpp:[m[K In member function ‘[01m[Kaikido::trajectory::TrajectoryPtr ada::Ada::computeSmoothJointSpacePath(const MetaSkeletonStateSpacePtr&, const std::vector<std::pair<double, Eigen::Matrix<double, -1, 1> > >&)[m[K’:
+[01m[K/home/csci545/ros_ws/src/libada/src/ada_description/Ada.cpp:402:19:[m[K [01;35m[Kwarning: [m[Kredundant move in return statement [[01;35m[K-Wredundant-move[m[K]
+  402 |   return [01;35m[Kstd::move(smoothTrajectory)[m[K;
+      |          [01;35m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/csci545/ros_ws/src/libada/src/ada_description/Ada.cpp:402:19:[m[K [01;36m[Knote: [m[Kremove ‘[01m[Kstd::move[m[K’ call
+[01m[K/home/csci545/ros_ws/src/libada/src/ada_description/Ada.cpp:[m[K In member function ‘[01m[Kaikido::trajectory::TrajectoryPtr ada::Ada::computeJointSpacePath(const MetaSkeletonStateSpacePtr&, const std::vector<std::pair<double, Eigen::Matrix<double, -1, 1> > >&)[m[K’:
+[01m[K/home/csci545/ros_ws/src/libada/src/ada_description/Ada.cpp:425:19:[m[K [01;35m[Kwarning: [m[Kredundant move in return statement [[01;35m[K-Wredundant-move[m[K]
+  425 |   return [01;35m[Kstd::move(timedTrajectory)[m[K;
+      |          [01;35m[K~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/csci545/ros_ws/src/libada/src/ada_description/Ada.cpp:425:19:[m[K [01;36m[Knote: [m[Kremove ‘[01m[Kstd::move[m[K’ call
+[ 40%] [32mBuilding CXX object CMakeFiles/libada.dir/src/adapy/adapy.cpp.o[0m
+-- googletest build command succeeded.  See also /home/csci545/ros_ws/build/libada/googletest-prefix/src/googletest-stamp/googletest-build-*.log
+[ 44%] [34m[1mNo install step for 'googletest'[0m
+[ 48%] [34m[1mCompleted 'googletest'[0m
+[ 48%] Built target googletest
+[ 51%] [32mBuilding CXX object CMakeFiles/libada.dir/src/adapy/ada_py.cpp.o[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/libada.dir/src/adapy/aikido_py.cpp.o[0m
+[01m[K/home/csci545/ros_ws/src/libada/src/adapy/ada_py.cpp:[m[K In lambda function:
+[01m[K/home/csci545/ros_ws/src/libada/src/adapy/ada_py.cpp:126:30:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K-Wwrite-strings[m[K]
+  126 |              char *argv[] = {[01;35m[K"adapy"[m[K};
+      |                              [01;35m[K^~~~~~~[m[K
+[ 59%] [32mBuilding CXX object CMakeFiles/libada.dir/src/adapy/dart_py.cpp.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/libada.dir/src/adapy/pr_tsr_py.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/libada.dir/src/adapy/ik_py.cpp.o[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/libada.dir/src/ada_description/util.cpp.o[0m
+[ 74%] [32m[1mLinking CXX shared library libada.so[0m
+[ 74%] Built target libada
+[35m[1mScanning dependencies of target adapy[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/adapy.dir/src/adapy/adapy.cpp.o[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/adapy.dir/src/adapy/ada_py.cpp.o[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/adapy.dir/src/adapy/aikido_py.cpp.o[0m
+[01m[K/home/csci545/ros_ws/src/libada/src/adapy/ada_py.cpp:[m[K In lambda function:
+[01m[K/home/csci545/ros_ws/src/libada/src/adapy/ada_py.cpp:126:30:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K-Wwrite-strings[m[K]
+  126 |              char *argv[] = {[01;35m[K"adapy"[m[K};
+      |                              [01;35m[K^~~~~~~[m[K
+[ 88%] [32mBuilding CXX object CMakeFiles/adapy.dir/src/adapy/dart_py.cpp.o[0m
+[ 92%] [32mBuilding CXX object CMakeFiles/adapy.dir/src/adapy/pr_tsr_py.cpp.o[0m
+[ 96%] [32mBuilding CXX object CMakeFiles/adapy.dir/src/adapy/ik_py.cpp.o[0m
+[100%] [32m[1mLinking CXX shared module adapy.cpython-38-aarch64-linux-gnu.so[0m
+[100%] Built target adapy

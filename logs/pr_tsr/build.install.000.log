@@ -1,0 +1,19 @@
+[100%] Built target pr_tsr
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Installing: /home/csci545/ros_ws/devel/lib/libpr_tsr.a
+-- Up-to-date: /home/csci545/ros_ws/devel/include
+-- Installing: /home/csci545/ros_ws/devel/include/pr_tsr
+-- Installing: /home/csci545/ros_ws/devel/include/pr_tsr/glass.hpp
+-- Installing: /home/csci545/ros_ws/devel/include/pr_tsr/block_bin.hpp
+-- Installing: /home/csci545/ros_ws/devel/include/pr_tsr/block.hpp
+-- Installing: /home/csci545/ros_ws/devel/include/pr_tsr/can.hpp
+-- Installing: /home/csci545/ros_ws/devel/include/pr_tsr/plate.hpp
+-- Installing: /home/csci545/ros_ws/devel/include/pr_tsr/food_item.hpp
+-- Installing: /home/csci545/ros_ws/devel/include/pr_tsr/fuze.hpp
+-- Installing: /home/csci545/ros_ws/devel/include/pr_tsr/valve.hpp
+-- Installing: /home/csci545/ros_ws/devel/include/pr_tsr/brush.hpp
+-- Installing: /home/csci545/ros_ws/devel/include/pr_tsr/table.hpp
+-- Installing: /home/csci545/ros_ws/devel/share/pr_tsr/cmake/pr_tsrConfig.cmake
+-- Installing: /home/csci545/ros_ws/devel/share/pr_tsr/cmake/pr_tsrConfig-noconfig.cmake
+-- Installing: /home/csci545/ros_ws/devel/share/pr_tsr/package.xml

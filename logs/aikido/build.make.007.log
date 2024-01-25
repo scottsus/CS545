@@ -1,0 +1,24 @@
+[  2%] Built target aikido_external_hauserparabolicsmoother
+[  4%] Built target aikido_external_kunzretimer
+[  8%] Built target aikido_common
+[ 10%] Built target aikido_io
+[ 20%] Built target aikido_statespace
+[35m[1mScanning dependencies of target aikido_perception[0m
+[ 26%] Built target aikido_distance
+[ 26%] [32mBuilding CXX object src/perception/CMakeFiles/aikido_perception.dir/PoseEstimatorModule.cpp.o[0m
+[ 30%] Built target aikido_trajectory
+[ 48%] Built target aikido_constraint
+[ 53%] Built target aikido_planner_parabolic
+[ 55%] Built target aikido_planner_kunzretimer
+[ 57%] Built target aikido_control
+[ 71%] Built target aikido_planner
+[ 71%] [32m[1mLinking CXX shared library libaikido_control_ros.so[0m
+[ 75%] Built target aikido_control_ros
+[ 79%] Built target aikido_planner_ompl
+[ 85%] Built target aikido_planner_vectorfield
+[ 85%] [32m[1mLinking CXX shared library libaikido_rviz.so[0m
+[ 91%] Built target aikido_rviz
+[ 95%] Built target aikido_robot
+[ 97%] [32mBuilding CXX object src/perception/CMakeFiles/aikido_perception.dir/shape_conversions.cpp.o[0m
+[ 97%] [32m[1mLinking CXX shared library libaikido_perception.so[0m
+[100%] Built target aikido_perception

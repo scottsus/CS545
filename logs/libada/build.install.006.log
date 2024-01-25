@@ -1,0 +1,29 @@
+[ 44%] Built target libada
+[ 70%] Built target adapy
+[100%] Built target googletest
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Up-to-date: /home/csci545/ros_ws/devel/_setup_util.py
+-- Up-to-date: /home/csci545/ros_ws/devel/env.sh
+-- Installing: /home/csci545/ros_ws/devel/setup.bash
+-- Up-to-date: /home/csci545/ros_ws/devel/local_setup.bash
+-- Up-to-date: /home/csci545/ros_ws/devel/setup.sh
+-- Up-to-date: /home/csci545/ros_ws/devel/local_setup.sh
+-- Installing: /home/csci545/ros_ws/devel/setup.zsh
+-- Up-to-date: /home/csci545/ros_ws/devel/local_setup.zsh
+-- Up-to-date: /home/csci545/ros_ws/devel/.rosinstall
+-- Up-to-date: /home/csci545/ros_ws/devel/lib/libada.so.0.2.0
+-- Up-to-date: /home/csci545/ros_ws/devel/lib/libada.so
+-- Up-to-date: /home/csci545/ros_ws/devel/include
+-- Up-to-date: /home/csci545/ros_ws/devel/include/libada
+-- Up-to-date: /home/csci545/ros_ws/devel/include/libada/AdaHandKinematicSimulationPositionCommandExecutor.hpp
+-- Up-to-date: /home/csci545/ros_ws/devel/include/libada/detail
+-- Up-to-date: /home/csci545/ros_ws/devel/include/libada/detail/util-impl.hpp
+-- Up-to-date: /home/csci545/ros_ws/devel/include/libada/util.hpp
+-- Up-to-date: /home/csci545/ros_ws/devel/include/libada/Ada.hpp
+-- Up-to-date: /home/csci545/ros_ws/devel/include/libada/AdaFingerKinematicSimulationPositionCommandExecutor.hpp
+-- Up-to-date: /home/csci545/ros_ws/devel/include/libada/AdaHand.hpp
+-- Up-to-date: /home/csci545/ros_ws/devel/lib/python3.8/dist-packages/adapy.cpython-38-aarch64-linux-gnu.so
+-- Up-to-date: /home/csci545/ros_ws/devel/share/libada/cmake/libadaConfig.cmake
+-- Up-to-date: /home/csci545/ros_ws/devel/share/libada/cmake/libadaConfig-noconfig.cmake
+-- Up-to-date: /home/csci545/ros_ws/devel/share/libada/package.xml

@@ -1,0 +1,17 @@
+[35m[1mScanning dependencies of target libada[0m
+[ 29%] Built target googletest
+[ 33%] [32mBuilding CXX object CMakeFiles/libada.dir/src/ada_description/Ada.cpp.o[0m
+[01m[K/home/csci545/ros_ws/src/libada/src/ada_description/Ada.cpp:[m[K In member function ‘[01m[Kaikido::trajectory::TrajectoryPtr ada::Ada::computeSmoothJointSpacePath(const MetaSkeletonStateSpacePtr&, const std::vector<std::pair<double, Eigen::Matrix<double, -1, 1> > >&)[m[K’:
+[01m[K/home/csci545/ros_ws/src/libada/src/ada_description/Ada.cpp:402:19:[m[K [01;35m[Kwarning: [m[Kredundant move in return statement [[01;35m[K-Wredundant-move[m[K]
+  402 |   return [01;35m[Kstd::move(smoothTrajectory)[m[K;
+      |          [01;35m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/csci545/ros_ws/src/libada/src/ada_description/Ada.cpp:402:19:[m[K [01;36m[Knote: [m[Kremove ‘[01m[Kstd::move[m[K’ call
+[01m[K/home/csci545/ros_ws/src/libada/src/ada_description/Ada.cpp:[m[K In member function ‘[01m[Kaikido::trajectory::TrajectoryPtr ada::Ada::computeJointSpacePath(const MetaSkeletonStateSpacePtr&, const std::vector<std::pair<double, Eigen::Matrix<double, -1, 1> > >&)[m[K’:
+[01m[K/home/csci545/ros_ws/src/libada/src/ada_description/Ada.cpp:425:19:[m[K [01;35m[Kwarning: [m[Kredundant move in return statement [[01;35m[K-Wredundant-move[m[K]
+  425 |   return [01;35m[Kstd::move(timedTrajectory)[m[K;
+      |          [01;35m[K~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/csci545/ros_ws/src/libada/src/ada_description/Ada.cpp:425:19:[m[K [01;36m[Knote: [m[Kremove ‘[01m[Kstd::move[m[K’ call
+[ 37%] [32m[1mLinking CXX shared library libada.so[0m
+[ 74%] Built target libada
+[ 77%] [32m[1mLinking CXX shared module adapy.cpython-38-aarch64-linux-gnu.so[0m
+[100%] Built target adapy

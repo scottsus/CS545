@@ -1,0 +1,105 @@
+[ 11%] [34m[1mPerforming download step (download, verify and extract) for 'pybind11_src'[0m
+-- verifying file...
+       file='/home/csci545/ros_ws/build/pybind11_catkin/pybind11_src-prefix/src/v2.2.4.zip'
+-- MD5 hash of
+    /home/csci545/ros_ws/build/pybind11_catkin/pybind11_src-prefix/src/v2.2.4.zip
+  does not match expected value
+    expected: '06f0bbf25dc9c4fe15092e9e03a8fc01'
+      actual: 'd41d8cd98f00b204e9800998ecf8427e'
+-- File already exists but hash mismatch. Removing...
+-- Downloading...
+   dst='/home/csci545/ros_ws/build/pybind11_catkin/pybind11_src-prefix/src/v2.2.4.zip'
+   timeout='none'
+-- Using src='https://github.com/pybind/pybind11/archive/v2.2.4.zip'
+-- Retrying...
+-- Using src='https://github.com/pybind/pybind11/archive/v2.2.4.zip'
+-- Retry after 5 seconds (attempt #2) ...
+-- Using src='https://github.com/pybind/pybind11/archive/v2.2.4.zip'
+-- Retry after 5 seconds (attempt #3) ...
+-- Using src='https://github.com/pybind/pybind11/archive/v2.2.4.zip'
+-- Retry after 15 seconds (attempt #4) ...
+-- Using src='https://github.com/pybind/pybind11/archive/v2.2.4.zip'
+-- Retry after 60 seconds (attempt #5) ...
+-- Using src='https://github.com/pybind/pybind11/archive/v2.2.4.zip'
+CMake Error at pybind11_src-stamp/download-pybind11_src.cmake:159 (message):
+  Each download failed!
+
+    error: downloading 'https://github.com/pybind/pybind11/archive/v2.2.4.zip' failed
+         status_code: 6
+         status_string: "Couldn't resolve host name"
+         log:
+         --- LOG BEGIN ---
+         Could not resolve host: github.com
+
+  Closing connection 0
+
+  
+
+         --- LOG END ---
+         error: downloading 'https://github.com/pybind/pybind11/archive/v2.2.4.zip' failed
+         status_code: 6
+         status_string: "Couldn't resolve host name"
+         log:
+         --- LOG BEGIN ---
+         Could not resolve host: github.com
+
+  Closing connection 0
+
+  
+
+         --- LOG END ---
+         error: downloading 'https://github.com/pybind/pybind11/archive/v2.2.4.zip' failed
+         status_code: 6
+         status_string: "Couldn't resolve host name"
+         log:
+         --- LOG BEGIN ---
+         Could not resolve host: github.com
+
+  Closing connection 0
+
+  
+
+         --- LOG END ---
+         error: downloading 'https://github.com/pybind/pybind11/archive/v2.2.4.zip' failed
+         status_code: 6
+         status_string: "Couldn't resolve host name"
+         log:
+         --- LOG BEGIN ---
+         Could not resolve host: github.com
+
+  Closing connection 0
+
+  
+
+         --- LOG END ---
+         error: downloading 'https://github.com/pybind/pybind11/archive/v2.2.4.zip' failed
+         status_code: 6
+         status_string: "Couldn't resolve host name"
+         log:
+         --- LOG BEGIN ---
+         Could not resolve host: github.com
+
+  Closing connection 0
+
+  
+
+         --- LOG END ---
+         error: downloading 'https://github.com/pybind/pybind11/archive/v2.2.4.zip' failed
+         status_code: 6
+         status_string: "Couldn't resolve host name"
+         log:
+         --- LOG BEGIN ---
+         Could not resolve host: github.com
+
+  Closing connection 0
+
+  
+
+         --- LOG END ---
+         
+    
+
+
+make[2]: *** [CMakeFiles/pybind11_src.dir/build.make:92: pybind11_src-prefix/src/pybind11_src-stamp/pybind11_src-download] Error 1
+make[1]: *** [CMakeFiles/Makefile2:276: CMakeFiles/pybind11_src.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

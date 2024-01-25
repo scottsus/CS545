@@ -1,0 +1,18 @@
+[01m[K/home/csci545/ros_ws/src/libada/src/ada_description/Ada.cpp:[m[K In member function ‘[01m[Kaikido::trajectory::TrajectoryPtr ada::Ada::computeSmoothJointSpacePath(const MetaSkeletonStateSpacePtr&, const std::vector<std::pair<double, Eigen::Matrix<double, -1, 1> > >&)[m[K’:
+[01m[K/home/csci545/ros_ws/src/libada/src/ada_description/Ada.cpp:402:19:[m[K [01;35m[Kwarning: [m[Kredundant move in return statement [[01;35m[K-Wredundant-move[m[K]
+  402 |   return [01;35m[Kstd::move(smoothTrajectory)[m[K;
+      |          [01;35m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/csci545/ros_ws/src/libada/src/ada_description/Ada.cpp:402:19:[m[K [01;36m[Knote: [m[Kremove ‘[01m[Kstd::move[m[K’ call
+[01m[K/home/csci545/ros_ws/src/libada/src/ada_description/Ada.cpp:[m[K In member function ‘[01m[Kaikido::trajectory::TrajectoryPtr ada::Ada::computeJointSpacePath(const MetaSkeletonStateSpacePtr&, const std::vector<std::pair<double, Eigen::Matrix<double, -1, 1> > >&)[m[K’:
+[01m[K/home/csci545/ros_ws/src/libada/src/ada_description/Ada.cpp:425:19:[m[K [01;35m[Kwarning: [m[Kredundant move in return statement [[01;35m[K-Wredundant-move[m[K]
+  425 |   return [01;35m[Kstd::move(timedTrajectory)[m[K;
+      |          [01;35m[K~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/csci545/ros_ws/src/libada/src/ada_description/Ada.cpp:425:19:[m[K [01;36m[Knote: [m[Kremove ‘[01m[Kstd::move[m[K’ call
+[01m[K/home/csci545/ros_ws/src/libada/src/adapy/ada_py.cpp:[m[K In lambda function:
+[01m[K/home/csci545/ros_ws/src/libada/src/adapy/ada_py.cpp:126:30:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K-Wwrite-strings[m[K]
+  126 |              char *argv[] = {[01;35m[K"adapy"[m[K};
+      |                              [01;35m[K^~~~~~~[m[K
+[01m[K/home/csci545/ros_ws/src/libada/src/adapy/ada_py.cpp:[m[K In lambda function:
+[01m[K/home/csci545/ros_ws/src/libada/src/adapy/ada_py.cpp:126:30:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K-Wwrite-strings[m[K]
+  126 |              char *argv[] = {[01;35m[K"adapy"[m[K};
+      |                              [01;35m[K^~~~~~~[m[K

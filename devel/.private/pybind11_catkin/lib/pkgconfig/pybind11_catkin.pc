@@ -1,0 +1,8 @@
+prefix=/home/csci545/ros_ws/devel/.private/pybind11_catkin
+
+Name: pybind11_catkin
+Description: Description of pybind11_catkin
+Version: 2.2.4
+Cflags: -I/home/csci545/ros_ws/devel/.private/pybind11_catkin/include
+Libs: -L${prefix}/lib 
+Requires: 

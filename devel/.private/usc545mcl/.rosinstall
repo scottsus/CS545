@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/csci545/ros_ws/devel/.private/usc545mcl/setup.sh
